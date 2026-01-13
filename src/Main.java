@@ -22,5 +22,9 @@ public class Main {
         } else {
             System.out.println("No solution exists.");
         }
+        System.out.println("\nStatistics:");
+        System.out.println("Attempts: " + SudokuSolver.attempts);
+        System.out.println("Backtracks: " + SudokuSolver.backtracks);
+
     }
 }
