@@ -16,11 +16,11 @@ public class Main {
         SudokuBoard board = new SudokuBoard(puzzle);
         System.out.println("Sudoku puzzle: ");
         board.printBoard();
-        
-        System.out.println("\nTest isValid:");
-        System.out.println("Can place 5 at (0,2)? " + SudokuValidator.isValid(puzzle, 0, 2, 5)); // false
-        System.out.println("Can place 4 at (0,2)? " + SudokuValidator.isValid(puzzle, 0, 2, 4)); // true
-
-
+        if (SudokuSolver.solve(puzzle)) {
+            System.out.println("\nAfter solving:");
+            board.printBoard();
+        } else {
+            System.out.println("No solution exists.");
+        }
     }
 }
