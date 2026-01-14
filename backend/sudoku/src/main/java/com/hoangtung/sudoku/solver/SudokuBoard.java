@@ -1,3 +1,4 @@
+package com.hoangtung.sudoku.solver;
 public class SudokuBoard {
     private int[][] board;
     public SudokuBoard( int [][] board) {
