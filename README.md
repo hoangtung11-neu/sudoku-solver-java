@@ -8,6 +8,7 @@ Smooth frontend–backend integration
 
 User-friendly and modern UI
 ✨ Features
+
 ✅ Sudoku Board
 
 Dynamically generated 9×9 Sudoku grid
@@ -57,6 +58,7 @@ CSS3
 Vanilla JavaScript (no frameworks)
 
 🚀 Getting Started
+
 1️⃣ Run the Backend
 
 Open the backend project in IntelliJ IDEA or VS Code
