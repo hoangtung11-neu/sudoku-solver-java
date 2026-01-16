@@ -7,6 +7,7 @@ Real-time Sudoku validation
 Smooth frontend–backend integration
 
 User-friendly and modern UI
+
 ✨ Features
 
 ✅ Sudoku Board
