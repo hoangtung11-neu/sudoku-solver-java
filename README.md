@@ -58,20 +58,6 @@ HTML5
 CSS3
 Vanilla JavaScript (no frameworks)
 
-🚀 Getting Started
-
-1️⃣ Run the Backend
-
-Open the backend project in IntelliJ IDEA or VS Code
-Run the Spring Boot application
-The server will start at:
-http://localhost:8080
-
-2️⃣ Run the Frontend
-
-Open the frontend folder
-Use Live Server (recommended) or open index.html directly
-Enter a Sudoku puzzle and click Solve
 
 🧪 How It Works
 User enters numbers into the Sudoku board
